@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiApp", "MultiWeb\MultiApp.csproj", "{B7FB3306-E8B2-4DDB-8F0D-2BF6F613BB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "test\test.csproj", "{455D013E-CDCC-430B-9E63-7846636A4DCA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7FB3306-E8B2-4DDB-8F0D-2BF6F613BB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7FB3306-E8B2-4DDB-8F0D-2BF6F613BB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7FB3306-E8B2-4DDB-8F0D-2BF6F613BB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7FB3306-E8B2-4DDB-8F0D-2BF6F613BB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{455D013E-CDCC-430B-9E63-7846636A4DCA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{455D013E-CDCC-430B-9E63-7846636A4DCA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{455D013E-CDCC-430B-9E63-7846636A4DCA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{455D013E-CDCC-430B-9E63-7846636A4DCA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C0500321-81D7-4E43-9223-5D0C25225AB0}
+	EndGlobalSection
+EndGlobal

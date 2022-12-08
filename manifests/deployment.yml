@@ -1,0 +1,19 @@
+apiVersion : apps/v1
+kind: Deployment
+metadata:
+  name: multiweb 
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multiweb
+  template:
+    metadata:
+      labels:
+        app: multiweb 
+    spec:
+      containers:
+        - name: multiweb 
+          image: facturaciongn.azurecr.io/multiweb
+          ports:
+          - containerPort: 8080
