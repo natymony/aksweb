@@ -20,7 +20,7 @@ variables:
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
-
+  imagePullPolicy: Always
 
 stages:
 - stage: Build
@@ -76,5 +76,5 @@ stages:
                 $(imagePullSecret)
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
-              imagePullPolicy: Always
+
 
