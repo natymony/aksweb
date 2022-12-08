@@ -76,4 +76,5 @@ stages:
                 $(imagePullSecret)
               containers: |
                 $(containerRegistry)/$(imageRepository):$(tag)
+              imagePullPolicy: Always
 
